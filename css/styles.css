@@ -1,0 +1,95 @@
+/* ***Comandos de reset do browser*** */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{ box-sizing: border-box; margin:0px;}
+
+@font-face 
+{
+	font-family: LexendGiga-Black;
+	font-style: normal;
+	src: url('../fonts/LexendGiga-Black.ttf');
+}
+@font-face 
+{
+	font-family: LexendGiga-Black;
+	font-style: bold;
+	src: url('../fonts/LexendGiga-Bold.ttf');
+}
+@font-face 
+{
+	font-family: LexendGiga-Black;
+	font-style: light;
+	src: url('../fonts/LexendGiga-Light.ttf');
+}
+@font-face 
+{
+	font-family: LexendGiga-Black;
+	font-style: extra-light;
+	src: url('../fonts/LexendGiga-ExtraLight.ttf');
+}
+@font-face 
+{
+	font-family: LexendGiga-Black;
+	font-style: extra-bold;
+	src: url('../fonts/LexendGiga-ExtraBold.ttf');
+}
+
+nav ul
+{
+    font-family: LexendGiga-Black;
+}
+nav ul li
+{
+    padding-right: 5rem;
+    padding-left: .6rem;
+	
+}
+.nav-link
+{
+	color: black !important;
+	transition: .2s ease-in-out;
+}
+.nav-link:hover
+{
+	color: #ffffff !important;
+}
+
+nav img
+{
+    margin-right: 5rem;
+}
+nav #redes a
+{
+    color: black;
+    padding: .5rem .3rem;
+}
+
+nav #redes a:hover
+{
+	color: #ffffff;
+	transition: .2s ease-in-out;
+}
+main
+{
+	font-family: LexendGiga-Black;
+	font-size: 2.5rem;
+}
+footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(190, 190, 190, 0.469);
+	padding-top: 2rem;
+}

@@ -1,0 +1,31 @@
+
+main
+{
+    margin-top: 15rem;
+}
+h1
+{
+    font-family: LexendGiga-Black;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#artista
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+#artista img
+{
+    border-radius: 50%;
+}
+
+#artista:hover
+{
+    transform: scale(1.1);
+    transition: .3s;
+}

@@ -87,6 +87,13 @@ main
 	font-family: LexendGiga-Black;
 	font-size: 2.5rem;
 }
+main video
+{
+	display: flex;
+	margin: auto;
+	padding-top: 12rem;
+	padding-bottom: 2rem
+}
 footer
 {
 	width: 100%;

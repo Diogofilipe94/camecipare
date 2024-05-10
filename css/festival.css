@@ -1,0 +1,14 @@
+#festival{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 12rem;
+}
+#festival p{
+    font-family: LexendGiga-Black;
+    font-size: 1.4rem;
+    padding: 2rem;
+    text-align: left;
+}

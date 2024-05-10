@@ -92,7 +92,8 @@ main video
 	display: flex;
 	margin: auto;
 	padding-top: 12rem;
-	padding-bottom: 2rem
+	padding-bottom: 2rem;
+	max-height: fit-content;
 }
 footer
 {

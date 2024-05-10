@@ -1,14 +1,12 @@
 main
 {
     margin: auto;
-    padding-bottom: 2rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
 }
 .c-item
 {
     height: 100%;
-    margin-top: 15rem;
     display: flex;
     justify-content: center;
     

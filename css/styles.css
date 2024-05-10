@@ -85,15 +85,17 @@ nav #redes a:hover
 main
 {
 	font-family: LexendGiga-Black;
-	font-size: 2.5rem;
+	font-size: 2.5rem;	
+	padding-top: 12rem;
+	padding-bottom: 2rem;
 }
 main video
 {
 	display: flex;
+	align-items: center;
+	padding-left:20rem ;
+	padding-right: 20rem;
 	margin: auto;
-	padding-top: 12rem;
-	padding-bottom: 2rem;
-	max-height: fit-content;
 }
 footer
 {

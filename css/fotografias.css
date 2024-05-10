@@ -1,0 +1,7 @@
+main{
+    height: 60rem;
+}
+.carousel-inner img {
+    width: 100%;
+    background-size:contain;
+}

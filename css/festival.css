@@ -5,6 +5,12 @@
     flex-direction: column;
 
 }
+#festival img
+{
+    border-radius: 1%;
+    width: 80%;
+
+}
 #festival p{
     font-family: LexendGiga-Black;
     font-style: extra-light;

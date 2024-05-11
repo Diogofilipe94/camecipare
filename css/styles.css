@@ -18,31 +18,31 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 {
 	font-family: LexendGiga-Black;
 	font-style: normal;
-	src: url('/fonts/LexendGiga-Black.ttf');
+	src: url('../fonts/LexendGiga-Black.ttf');
 }
 @font-face 
 {
 	font-family: LexendGiga-Black;
 	font-style: bold;
-	src: url('/fonts/LexendGiga-Bold.ttf');
+	src: url('../fonts/LexendGiga-Bold.ttf');
 }
 @font-face 
 {
 	font-family: LexendGiga-Black;
 	font-style: light;
-	src: url('/fonts/LexendGiga-Light.ttf');
+	src: url('../fonts/LexendGiga-Light.ttf');
 }
 @font-face 
 {
 	font-family: LexendGiga-Black;
 	font-style: extra-light;
-	src: url('/fonts/LexendGiga-ExtraLight.ttf');
+	src: url('../fonts/LexendGiga-ExtraLight.ttf');
 }
 @font-face 
 {
 	font-family: LexendGiga-Black;
 	font-style: extra-bold;
-	src: url('/fonts/LexendGiga-ExtraBold.ttf');
+	src: url('../fonts/LexendGiga-ExtraBold.ttf');
 }
 
 /* Estilização geral de todas as páginas */

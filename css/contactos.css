@@ -3,18 +3,34 @@
 }
 
 .fcf-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
     color: #212529;
     text-align: left;
     background-color: #fff;
     padding: 30px;
     padding-bottom: 10px;
-    max-width: 80%;
-    
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
 }
 
 .fcf-form-group {
     margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
 }
 
 .fcf-form-control {
@@ -34,12 +50,23 @@
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
 textarea.fcf-form-control {
     font-family: -apple-system, Arial, sans-serif;
     height: auto;
 }
 
-
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
 
 .fcf-btn {
     display: inline-block;
@@ -61,7 +88,11 @@ textarea.fcf-form-control {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-
+@media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+}
 
 .fcf-btn:hover {
     color: #212529;
@@ -75,7 +106,8 @@ textarea.fcf-form-control {
 
 .fcf-btn-primary {
     color: #fff;
-    border-color: #000000;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .fcf-btn-primary:hover {

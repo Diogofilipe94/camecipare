@@ -2,12 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding-bottom: 2rem;
+}
+#festival img
+{
+    height: 100;
 
 }
 #festival p{
     font-family: LexendGiga-Black;
     font-style: extra-light;
     font-size: 1.1rem;
+    padding: 2rem;
     text-align: left;
 }

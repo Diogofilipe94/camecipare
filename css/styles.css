@@ -84,8 +84,8 @@ nav #redes a:hover
 	transition: .2s ease-in-out;
 }
 main{
-	padding-top: 15rem;
-	padding-bottom: 5rem;
+	padding-top: 12rem;
+	padding-bottom: 1rem;
 	font-family: LexendGiga-Black;
 
 }
@@ -94,14 +94,21 @@ main{
 	display: flex;
 	justify-content: center;
 }
-#videocamecipare
-{
-	max-width: 100%;
-	height: auto;
-}
+
 footer
 {
-	padding-top: 3rem;
-	width: 100%;
-	background-color: rgba(190, 190, 190, 0.469);
+	padding-top: 1rem;
+	background-color: rgba(89, 74, 66, 0.469);
+}
+footer p
+{
+	font-size: 1rem;
+	padding-top:1rem;
+}
+#base
+{
+	padding-top: 2rem;
+}
+#base a{
+	padding:1rem;
 }

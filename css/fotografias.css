@@ -1,17 +1,10 @@
-main
-{
-    margin: auto;
-}
-.c-item
-{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
 .c-img
 {
     height: 100%;
     object-fit: cover;
     
+}
+main
+{
+   margin: 0% 20% 
 }

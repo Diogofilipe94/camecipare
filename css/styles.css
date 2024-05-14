@@ -17,7 +17,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 @font-face 
 {
 	font-family: LexendGiga-Black;
-	font-style: normal;
+	font-weight: normal;
 	src: url('../fonts/LexendGiga-Black.ttf');
 }
 @font-face 
@@ -29,7 +29,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 @font-face 
 {
 	font-family: LexendGiga-Black;
-	font-style: light;
+	font-weight: light;
 	src: url('../fonts/LexendGiga-Light.ttf');
 }
 @font-face 

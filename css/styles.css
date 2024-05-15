@@ -71,6 +71,12 @@ nav ul li
 nav img
 {
     margin-right: 5rem;
+	transition: .3s;
+}
+nav img:hover
+{
+	transform: scale(1.1);
+	transition: .3s;
 }
 nav #redes a
 {
@@ -105,11 +111,7 @@ footer p
 	font-size: 1rem;
 	padding-top:1rem;
 }
-#base
+#logos a
 {
-	padding-top: 3rem;
-}
-#base a{
-	padding:2rem;
-	padding-top: 2rem;
+	padding-top: 4rem;
 }

@@ -100,7 +100,6 @@ nav #redes a:hover
 
 main
 {
-	padding-top: 11rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -155,6 +154,7 @@ footer p
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	max-height: 5rem;
 }
 
 #logos

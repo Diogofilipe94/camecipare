@@ -68,7 +68,7 @@ nav ul li
 
 .nav-link:hover
 {
-	color: #ffffff !important;
+	color: rgb(137, 129, 33) !important;
 }
 
 nav img
@@ -117,7 +117,7 @@ video
 
 footer
 {
-	background-color: rgba(89, 74, 66, 0.469);
+	background-color: rgba(247, 241, 229, 1);
 
 }
 
@@ -151,12 +151,14 @@ footer p
 	gap: 2rem;
 }
 
-h5
+footer p
 {
 	margin-bottom: 1rem;
+	font-family:Verdana, Geneva, Tahoma, sans-serif ;
+	font-weight: 700;
 }
 
 #footer-row
 {
-	gap: 4rem;
+	gap: 1rem;
 }

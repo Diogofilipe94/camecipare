@@ -1,7 +1,11 @@
 #fcf-form {
     display:block;
+    margin-top: 2rem;
 }
-
+.fcf-h3
+{
+    margin-bottom: 3rem;
+}
 .fcf-body {
     margin: 0;
     font-family: -apple-system, Arial, sans-serif;
@@ -15,7 +19,6 @@
     padding-bottom: 10px;
     border-radius: 0.25rem;
     max-width: 100%;
-    margin: 0 auto;
 }
 
 .fcf-form-group {
@@ -101,26 +104,26 @@ label.fcf-label {
 
 .fcf-btn:focus, .fcf-btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(231, 177, 10, .99);
 }
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #7ABA78;
+    border-color:  #7ABA78;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #7ABA78;
+    border-color: #7ABA78;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    background-color: #7ABA78;
+    border-color: #7ABA78;
+    box-shadow: 0 0 0 0.2rem #7ABA78;
 }
 
 .fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
@@ -141,4 +144,8 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+.m-contactos
+{
+    color: rgb(137, 129, 33) !important;
 }

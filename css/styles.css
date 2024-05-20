@@ -177,14 +177,18 @@ footer p
 	
 }
 /* */
+#copyright
+{
+	padding: 1rem;
+}
 #copyright-camecipare p
 {
 	display: flex;
 	justify-content: center;
 	font-family: Verdana;
-	color: rgba(0, 0, 0, .6);
+	color: rgb(0, 0, 0);
 	font-size: 1rem;
-	padding: 1rem;
+
 }
 #copyright-autor a
 {
@@ -192,7 +196,6 @@ footer p
 	justify-content: center;
 	font-family: Verdana;
 	text-decoration: none;
-	color: rgba(0, 0, 0, .6);
+	color: rgb(0, 0, 0);
 	font-size: 1rem;
-	padding: 1rem;
 }

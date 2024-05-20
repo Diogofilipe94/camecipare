@@ -11,12 +11,13 @@
 	width: 100%;
 }
 #description{
-    font-size: 1.2rem;
+    font-family: LexendGiga-Black;
+    font-size: 1.1rem;
     text-align: left;
-    margin-top: 4rem;
+    margin-top: 3rem;
     
 }
 .m-festival
 {
-    color: rgb(137, 129, 33) !important;
+    color: white !important;
 }

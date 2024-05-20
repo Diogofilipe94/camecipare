@@ -46,6 +46,28 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 }
 
 /* Estilização geral de todas as páginas */
+.wrapper {
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+    position: relative;
+	font-family: LexendGiga-Black;
+	font-size: 1rem;
+	background-color: rgba(0, 0, 0, .8);
+	color: rgba(231, 177, 10, .99);
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.navbar-cor
+{
+	background-color: rgba(231, 177, 10, .99);
+}
+
 nav ul
 {
     font-family: LexendGiga-Black;
@@ -57,7 +79,6 @@ nav ul li
 {
     padding-right: 3rem;
     padding-left: .6rem;
-	
 }
 
 .nav-link
@@ -68,9 +89,8 @@ nav ul li
 
 .nav-link:hover
 {
-	color: rgb(137, 129, 33) !important;
 	transition: .2s ease-in-out;
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 nav img
@@ -81,8 +101,8 @@ nav img
 
 nav img:hover
 {
-	transform: scale(1.2);
-	transition: .3s;
+	transform: scale(1.1);
+	transition: .3s ease-in-out;
 }
 
 nav #redes a
@@ -133,11 +153,6 @@ footer
 	filter: invert(74%) sepia(9%) saturate(1669%) hue-rotate(70deg) brightness(91%) contrast(85%);
 }
 
-footer p
-{	
-	padding-top:1rem;
-}
-
 #mapa iframe
 {
 	width: 80%;
@@ -149,40 +164,20 @@ footer p
 	width: 100%;
 }
 
-#logos div a
-{
-	height: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-#logos-apoios
-{
-	gap: 2rem;
-}
-
 footer p
 {
 	margin-bottom: 1rem;
-	font-family:Verdana, Geneva, Tahoma, sans-serif ;
-	font-weight: 700;
+	font-family: LexendGiga-Black;
 }
 
 #footer-row
 {
-	gap: 1rem;
+	gap: 2rem;
 }
-#copyright
-{
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-}
+
 #copyright p
 {
 	color: rgba(0, 0, 0, 0.2);
-	font-size: 1rem;
-	font-weight: 100;
+	font-size: .8rem;
+	padding-top: 1rem;
 }

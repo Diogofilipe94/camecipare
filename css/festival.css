@@ -1,8 +1,9 @@
+/* */
 .container-fluid #imagemcasa
 {
     padding: 0;
 }
-
+/* */
 #imagemcasa img
 {
 	padding: 0;
@@ -10,6 +11,7 @@
 	justify-content: center;
 	width: 100%;
 }
+/* */
 #description{
     font-family: LexendGiga-Black;
     font-size: 1.1rem;
@@ -17,6 +19,7 @@
     margin-top: 3rem;
     
 }
+/* */
 .m-festival
 {
     color: white !important;

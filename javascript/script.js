@@ -1,3 +1,4 @@
+//
 const marquees = [...document.querySelectorAll('.marquee')];
 marquees.forEach((marquee) => {
     marquee.innerHTML = marquee.innerHTML + '&nbsp;'.repeat(5);
@@ -9,9 +10,9 @@ marquees.forEach((marquee) => {
     marquee.addEventListener('mouseenter', () => (marquee.step = 0), false);
     marquee.addEventListener('mouseleave', () => (marquee.step = .2), false);
 });
-
+//
 requestAnimationFrame(move);
-
+//
 function move() {
     marquees.forEach((marquee) => {
         marquee.style.marginLeft = `-${marquee.i}px`;

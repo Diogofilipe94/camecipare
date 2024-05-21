@@ -28,7 +28,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	src: url('../fonts/LexendGiga-Light.ttf');
 }
 
-/* */
+/* Estilização da mensagem de marquee */
 .wrapper {
     width: 100%;
     height: 1.5rem;
@@ -39,73 +39,68 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	background-color: rgba(0, 0, 0, .8);
 	color: rgba(231, 177, 10, .99);
 }
-/* */
 .marquee {
     overflow: hidden;
     white-space: nowrap;
     position: absolute;
 }
-/* */
+/* Estilização da barra de navegação */
 .navbar-cor
 {
 	background-color: rgba(231, 177, 10, .99);
 }
-/* */
+
 nav ul
 {
     font-family: LexendGiga-Black;
 	font-style: bold;
 	font-size: 1.2rem;
 }
-/* */
+
 nav ul li
 {
     padding-right: 3rem;
     padding-left: .6rem;
 }
-/* */
+
 .nav-link
 {
 	color: black !important;
 	transition: .2s ease-in-out;
 }
-/* */
+
 .nav-link:hover
 {
 	color: white !important;
 	
 }
-/* */
+
 nav img
 {
     margin-right: 5rem;
 	transition: .3s;
 }
-/* */
+
 nav img:hover
 {
 	transform: scale(1.1);
 	transition: .3s ease-in-out;
 }
-/* */
+
 nav #redes a
 {
     color: black;
     padding: .5rem .3rem;
 }
-/* */
+
 nav #redes a:hover
 {
 	color: white;
 	transition: .2s ease-in-out;
 	
 }
-/* */
-main
-{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/* */
+/* Estilização geral para o elemento main */
+/* Estilização do elemento de vídeo */
 #idvideo
 {
 	padding: 0;
@@ -113,18 +108,18 @@ main
 	justify-content: center;
 	width: 100%;
 }
-/* */
+
 video
 {
 	width: 100%;
 	height: 100%;
 }
-/* */
+/* Estilização do rodapé */
 footer
 {
 	background-color: rgba(247, 241, 229, 1);
 }
-/* */
+/* Estilização do logotipo no rodapé */
 #logo-footer
 {
 	display: flex;
@@ -135,43 +130,46 @@ footer
 	width: 100%;
 	filter: invert(74%) sepia(9%) saturate(1669%) hue-rotate(70deg) brightness(91%) contrast(85%);
 }
-/* */
+/* Ajusta o tamanho do iframe no mapa */
 #mapa iframe
 {
 	width: 80%;
 }
-/* */
+/* Estilização do tamanho do mapa  */
 #mapa a
 {
 	display: block;
 	width: 100%;
 }
-/* */
+
 footer p
 {
 	margin-bottom: 1rem;
 	font-family: LexendGiga-light;
 }
-/* */
+/* Define o espaçamento entre os elementos da linha do rodapé */
 #footer-row
 {
 	gap: 2rem;
 }
+/* Estilização do tamanho do espaço dos logotipos dos apoios */
 #logos-apoios
 {
 	height: 100%;
 }
+/* Estilização dos logotipos dos apoios */
 #logos-apoios img
 {
 	width: 70%;
 	height: 70%;
 	margin: auto;
 }
-/* */
+/* Estilização do texto de copyright do Festival */
 #copyright
 {
 	padding: 1rem;
 }
+
 #copyright-camecipare p
 {
 	display: flex;
@@ -181,6 +179,7 @@ footer p
 	font-size: 1rem;
 
 }
+
 #copyright-autor a
 {
 	display: flex;

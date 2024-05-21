@@ -1,3 +1,4 @@
+/* Estilização geral de todas as páginas */
 /* ***Comandos de reset do browser*** */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -13,7 +14,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 *{ box-sizing: border-box; margin:0px;}
-/* */
+/* Definições de fontes personalizadas */
 @font-face 
 {
 	font-family: LexendGiga-Black;
@@ -22,30 +23,11 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 }
 @font-face 
 {
-	font-family: LexendGiga-Black;
-	src: url('../fonts/LexendGiga-Bold.ttf');
-	font-weight: bold;
-}
-@font-face 
-{
-	font-family: LexendGiga-Black;
-	src: url('../fonts/LexendGiga-Light.ttf');
+	font-family: LexendGiga-light;
 	font-weight: light;
-}
-@font-face 
-{
-	font-family: LexendGiga-Black;
-	font-style: extra-light;
-	src: url('../fonts/LexendGiga-ExtraLight.ttf');
-}
-@font-face 
-{
-	font-family: LexendGiga-Black;
-	font-style: extra-bold;
-	src: url('../fonts/LexendGiga-ExtraBold.ttf');
+	src: url('../fonts/LexendGiga-Light.ttf');
 }
 
-/* Estilização geral de todas as páginas */
 /* */
 .wrapper {
     width: 100%;
@@ -168,13 +150,22 @@ footer
 footer p
 {
 	margin-bottom: 1rem;
-	font-family: LexendGiga-Black;
+	font-family: LexendGiga-light;
 }
 /* */
 #footer-row
 {
 	gap: 2rem;
-	
+}
+#logos-apoios
+{
+	height: 100%;
+}
+#logos-apoios img
+{
+	width: 70%;
+	height: 70%;
+	margin: auto;
 }
 /* */
 #copyright
@@ -185,7 +176,7 @@ footer p
 {
 	display: flex;
 	justify-content: center;
-	font-family: Verdana;
+	font-family: LexendGiga-light;
 	color: rgb(0, 0, 0);
 	font-size: 1rem;
 
@@ -194,7 +185,7 @@ footer p
 {
 	display: flex;
 	justify-content: center;
-	font-family: Verdana;
+	font-family: LexendGiga-light;
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 	font-size: 1rem;

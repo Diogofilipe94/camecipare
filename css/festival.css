@@ -11,9 +11,16 @@
 	justify-content: center;
 	width: 100%;
 }
+#titulo
+{
+    font-family: LexendGiga-light;
+    padding: 1rem;
+    text-align: center;
+
+}
 /* */
 #description{
-    font-family: LexendGiga-Black;
+    font-family: LexendGiga-light;
     font-size: 1.1rem;
     text-align: left;
     margin-top: 3rem;

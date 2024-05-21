@@ -27,7 +27,6 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	font-weight: light;
 	src: url('../fonts/LexendGiga-Light.ttf');
 }
-
 /* Estilização da mensagem de marquee */
 .wrapper {
     width: 100%;
